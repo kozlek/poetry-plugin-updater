@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "poetry-plugin-updater"
-version = "0.0.2"
+version = "0.0.3"
 description = "Poetry plugin to update pyproject.toml dependency versions"
 license = "MIT"
 authors = ["Thomas Berdy <thomas.berdy@outlook.com>"]
@@ -17,10 +17,10 @@ include = [
 ]
 
 [tool.poetry.dependencies]
-python = "^3.10"
-poetry = "^1.7.0"
-poetry-core = "^1.8.0"
-requests = "^2.26"
+python = ">=3.10"
+poetry = ">=1.7.0"
+poetry-core = ">=1.8.0"
+requests = ">=2.26"
 
 [tool.poetry.group.dev.dependencies]
 mypy = "~1.7.1"
